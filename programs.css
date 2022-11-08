@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  padding: 20px 20px 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: "Poppins", sans-serif;
+}
+
+/*HOME PAGE CSS*/
+
+.main-container {
+  margin-top: 70px;
+}
+
+.hp-heading1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  margin: 19px 0 34px 0;
+  text-align: center;
+}
+
+.preium-plans-icons {
+  height: 35px;
+}
+.hp-heading2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  margin-bottom: 2rem;
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.card-container {
+  display: flex;
+  overflow-x: scroll;
+}
+
+.card-container::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.card-container {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+/*PREMIUM PLAN*/
+
+.fitness_plans_child {
+  align-items: center;
+  display: flex;
+  margin-bottom: 1.6rem;
+  margin-top: 4rem;
+}
+
+.premium_plans_icon {
+  height: 52px;
+  background: #fd4106;
+  padding: 9px;
+  border-radius: 50%;
+}
+
+.hp-heading3 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 21px;
+}
+
+.premium_diet_guranteed {
+  display: flex;
+  align-items: center;
+  margin: 17px 0;
+}
+
+.premium_diet_guranteed > img {
+  color: green;
+  height: 20px;
+}
+
+.premium_diet_guranteed > p {
+  line-height: 25px;
+  padding-left: 10px;
+}
+
+/* CAROUSEL CARDS */
+
+.main-container > div {
+  height: 69vh;
+  width: 100%;
+  position: relative;
+}
+
+.carousel-image {
+  display: none;
+  height: 100%;
+  inset: 0;
+  object-fit: cover;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+
+.primary-carousel-img {
+  display: block;
+}
+
+/*CSS CARDS*/
+.card {
+  height: 24rem;
+  min-width: 85%;
+  position: relative;
+  margin-right: 20px;
+}
+
+.card-image {
+  height: 100%;
+  inset: 0;
+  object-fit: cover;
+  width: 100%;
+  z-index: -1;
+}
+
+.card-btn {
+  background-color: white;
+  border: none;
+  border-radius: 35px;
+  bottom: 20px;
+  font-weight: bold;
+  font-size: 16px;
+  left: 16px;
+  padding: 10px 15px;
+  position: absolute;
+}

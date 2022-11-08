@@ -1,0 +1,583 @@
+.home-section,
+.main-header {
+  align-items: center;
+  display: flex;
+}
+.ham-menu-class,
+.navbar {
+  display: flex;
+  position: fixed;
+}
+.ham-menu-class,
+.landing-section,
+.navbar {
+  max-width: 58rem;
+  width: 100%;
+}
+.ham-menu-class,
+.home-section,
+.landing-headers > h1,
+.landing-headers > h2,
+.navbar {
+  background-color: #fff;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.body-class {
+  overflow-y: hidden;
+}
+.home-section {
+  flex-direction: column;
+  padding: 0 2rem;
+}
+.ham-menu-class {
+  flex-direction: column;
+  height: 100vh;
+  padding: 8px 20px;
+  transform: translateX(-100vw);
+  transition: 0.4s ease-in-out;
+  top: 53px;
+  z-index: 4;
+}
+.landing-section > div,
+.navbar {
+  padding: 13px;
+}
+.ham-menu-class > a {
+  font-size: 18px;
+  font-family: "IBM Plex sans", sans-serif;
+  font-weight: 300;
+  margin: 9px 0;
+}
+.commitment-heading,
+.landing-headers > h1 {
+  font-weight: 600;
+  font-family: Poppins, sans-serif;
+  text-align: center;
+}
+.main-header {
+  flex-direction: column;
+  width: 100%;
+}
+.navbar {
+  align-items: center;
+  justify-content: space-between;
+  top: -3px;
+  z-index: 100;
+}
+.custom-btn-container > button:hover,
+.navbar > h1:hover,
+.navbar > i:hover,
+.pricing-btn-container-pro > button:hover,
+.pricing-btn-container:hover,
+.pricing-btn-container > button:hover,
+a:hover {
+  cursor: pointer;
+}
+.navbar > i::before {
+  font-size: 1.5rem;
+}
+a {
+  color: #000;
+  text-decoration: none;
+}
+.landing-section {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+  padding: 7% 0 0;
+}
+.landing-image-container {
+  padding-top: 54%;
+  position: relative;
+}
+.landing-section-images {
+  border-radius: 6px;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.landing-headers {
+  background-color: transparent;
+  bottom: 41px;
+  padding: 0 9%;
+  position: relative;
+}
+.landing-headers > h1 {
+  border-radius: 6px;
+  font-size: 19px;
+  margin-bottom: 11px;
+  padding-top: 16px;
+}
+.commitment-heading + p,
+.custom-diet-card > p,
+.custom-diet-plans > p,
+.landing-headers > h2 {
+  font-weight: 300;
+  text-align: center;
+  font-family: Poppins, sans-serif;
+}
+.landing-headers > h2 {
+  color: #4d4b4b;
+  font-size: 16px;
+  padding: 0 4%;
+}
+.commitment-section {
+  display: grid;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+  width: 100%;
+  max-width: 56rem;
+}
+.commitment-section > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 21px 7% 0;
+}
+.commitment-icons {
+  color: #7355ec;
+  font-size: 4.8rem;
+  text-align: center;
+}
+.commitment-heading {
+  font-size: 1.3rem;
+  margin: 31px 0 9px;
+}
+.pricing-section {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.pricing-section > div {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 0 3%;
+}
+.pricing-section > h1 {
+  font-family: Poppins, sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 40px;
+  text-align: center;
+}
+.custom-diet-card,
+.pricing-card {
+  border-radius: 7px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0 1px 3px -1px;
+  max-width: 25rem;
+  margin: 3rem 1rem;
+}
+.pricing-card-description {
+  padding: 4%;
+  margin: 0 0 2rem 20px;
+}
+.pricing-card-description > h1 {
+  font-size: 31px;
+  font-family: Poppins, sans-serif;
+  font-weight: 700;
+  line-height: 1.5;
+}
+.pricing-card-description > h3,
+.pricing-features-pro > p,
+.pricing-features > p {
+  font-family: Poppins, sans-serif;
+  font-weight: 300;
+}
+.pricing-card-price {
+  font-family: Poppins, sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  margin-top: 1rem;
+}
+.pricing-features-container {
+  height: 19rem;
+}
+.pricing-features,
+.pricing-features-pro {
+  display: flex;
+  padding: 4%;
+}
+.pricing-features > i::before {
+  color: #0070f3;
+  margin: 0 20px;
+  position: relative;
+  transform: scale(1.3);
+  top: 5px;
+}
+.pricing-features-pro > i::before {
+  color: #7928ca;
+  margin: 0 20px;
+  position: relative;
+  top: 5px;
+  transform: scale(1.3);
+}
+.pricing-div {
+  width: 100%;
+  padding: 1rem 20px 1.7rem;
+}
+.pricing-btn-container,
+.pricing-btn-container-pro {
+  align-items: center;
+  border-radius: 4px;
+  margin-top: 3rem;
+  padding: 8px 20px;
+  display: flex;
+  width: 100%;
+}
+.pricing-btn-container {
+  background-color: #017aff;
+  justify-content: space-between;
+}
+.pricing-btn-container-pro {
+  background-color: #7928ca;
+  justify-content: space-between;
+}
+.custom-btn-container > button,
+.pricing-btn-container-pro > button,
+.pricing-btn-container > button {
+  background: 0 0;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 5px 20px;
+}
+#brand-name,
+.diet-heading,
+.social-media-section > p {
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+}
+.custom-btn-container > i::before,
+.custom-diet-btn-container > i::before,
+.pricing-btn-container-pro > i::before,
+.pricing-btn-container > i::before {
+  color: #fff;
+}
+.social-media-section {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 7rem;
+  padding: 30px 7% 0;
+  width: 100%;
+}
+.social-media-section > div {
+  display: flex;
+  justify-content: space-between;
+  max-width: 500px;
+  padding: 0 2%;
+  width: 100%;
+}
+.social-media-section > div > a {
+  transform: scale(1.5);
+}
+.social-media-section > p {
+  color: #222;
+  margin: 4rem 0;
+}
+.social-media-icons {
+  height: 23px;
+  font-size: 28px;
+}
+.bi-twitter {
+  color: #1da1f2;
+}
+.bi-facebook {
+  color: #4267b2;
+}
+.bi-instagram {
+  color: #e1306c;
+}
+.bi-envelope-fill {
+  color: #d44638;
+}
+.diet-heading {
+  font-size: 38px;
+  line-height: 40px;
+  text-align: center;
+}
+.custom-diet-plans {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 3rem 1rem;
+}
+.custom-diet-plans > p {
+  font-size: 17px;
+  margin: 2rem 0;
+}
+.custom-diet-plans > div {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.custom-diet-plans > div > img {
+  border-radius: 10px;
+  object-fit: scale-down;
+  width: 100%;
+  height: 100%;
+  max-height: 60vh;
+}
+.custom-diet-card > p {
+  margin-top: 1rem;
+  padding: 3%;
+}
+.custom-diet-card > div:first-child {
+  max-height: 19rem;
+}
+.custom-diet-card > div > img {
+  margin-top: 10px;
+  height: 100%;
+  padding: 0 10px;
+  object-fit: cover;
+}
+.custom-diet-btn-container {
+  align-items: center;
+  background-color: #7928ca;
+  border-bottom-left-radius: 9px;
+  border-bottom-right-radius: 9px;
+  display: flex;
+  justify-content: space-between;
+  padding: 13px 20px;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+.custom-btn-container {
+  align-items: center;
+  background-color: #017aff;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 20px;
+  width: 100%;
+}
+.custom-diet-btn-container > button {
+  background: 0 0;
+  border: none;
+  color: #fff;
+  font-weight: 700;
+}
+#brand-name {
+  font-size: 31px;
+}
+.display-ham-menu {
+  transform: translateX(0);
+  padding-left: 16px;
+}
+@media only screen and (max-width: 990px) {
+  .navbar {
+    align-items: center;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 41px;
+    position: fixed;
+    max-width: 58rem;
+    top: -3px;
+    width: 100%;
+    z-index: 100;
+  }
+  .commitment-section,
+  .landing-section {
+    display: grid;
+    grid-template-columns: 100%;
+    width: 100%;
+  }
+  .landing-section {
+    margin: 3.6rem 0 0;
+  }
+  .commitment-section {
+    padding: 7%;
+  }
+  .display-ham-menu {
+    transform: translateX(0);
+    padding-left: 41px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .custom-diet-plans,
+  .pricing-section > div {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+  .body-class {
+    overflow-y: hidden;
+  }
+  .custom-diet-plans {
+    padding: 0 1rem;
+  }
+  .pricing-features-container {
+    height: fit-content;
+  }
+  .social-media-section {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 4rem;
+    padding: 30px 7% 0;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .ham-menu-class,
+  .navbar {
+    background-color: #fff;
+    display: flex;
+    width: 100%;
+    position: fixed;
+  }
+  .commitment-heading,
+  .commitment-heading + p {
+    font-family: Poppins, sans-serif;
+    text-align: center;
+  }
+  .navbar {
+    align-items: center;
+    justify-content: space-between;
+    padding: 13px 18px 13px 20px;
+    max-width: 58rem;
+    top: -3px;
+    z-index: 100;
+  }
+  .ham-menu-class {
+    flex-direction: column;
+    padding: 8px 4%;
+    transform: translateX(-100vw);
+    transition: 0.3s ease-in-out;
+    top: 67px;
+    z-index: 4;
+  }
+  .main-nav,
+  .nav-links {
+    background: #fff;
+    z-index: 100;
+    display: flex;
+    width: 100%;
+  }
+  .display-ham-menu {
+    transform: translateX(0);
+    padding: 0 23px;
+  }
+  .home-section {
+    display: flex;
+    flex-direction: column;
+    padding: 9px;
+  }
+  .main-nav {
+    align-items: center;
+    box-shadow: rgb(0 0 0 / 12%) 0 1px 3px, rgb(0 0 0 / 24%) 0 1px 2px;
+    flex-direction: row;
+    height: 45px;
+    justify-content: space-between;
+    padding: 2% 14px;
+  }
+  .nav-links {
+    bottom: 0;
+    box-shadow: rgb(60 64 67 / 30%) 0 1px 2px 0,
+      rgb(60 64 67 / 15%) 0 2px 6px 2px;
+    flex-direction: row;
+    height: 49px;
+    left: 0;
+    justify-content: space-between;
+    position: fixed;
+    padding: 16px 7%;
+  }
+  .nav-links > li > a {
+    bottom: 9px;
+    position: relative;
+  }
+  .commitment-section {
+    margin-top: 0;
+  }
+  .commitment-section > div {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 1.4rem 0 16px;
+  }
+  .commitment-icons {
+    color: #7355ec;
+    font-size: 69px;
+    text-align: center;
+  }
+  .commitment-heading {
+    font-size: 22px;
+    font-weight: 700;
+    margin: 17px 0 9px;
+  }
+  .commitment-heading + p {
+    font-weight: 300;
+    margin-bottom: 20px;
+  }
+  .custom-diet-plans > h1,
+  .diet-heading,
+  .pricing-section > h1 {
+    font-family: Poppins, sans-serif;
+    font-size: 27px;
+    font-weight: 500;
+    line-height: 40px;
+    padding: 0 7px;
+    text-align: center;
+  }
+  .pricing-card {
+    border-radius: 7px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0 2px 5px -1px,
+      rgba(0, 0, 0, 0.3) 0 1px 3px -1px;
+    margin-top: 3rem;
+  }
+  .custom-diet-plans {
+    display: grid;
+    grid-template-columns: 100%;
+    padding: 0 1rem;
+  }
+  .social-media-section {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 2rem;
+    padding: 30px 7% 0;
+    width: 100%;
+  }
+  #brand-name {
+    font-size: 30px;
+  }
+}
+.animate-brand {
+  color: #7928ca;
+}
+.programs_link,
+.programs_link1 {
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  margin-top: 8px;
+  text-align: center;
+}
+
+.programs_link1 {
+  border-bottom: 1px solid black;
+}
+
+.plans-redirect-div {
+  position: relative;
+  top: 14px;
+}
+
+.custom-diet-plans {
+  display: grid;
+  grid-template-columns: 100%;
+  padding: 0rem 1rem;
+}

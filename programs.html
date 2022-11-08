@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="author" content="Aksavan" />
+  <meta name="description" content="Start your fitness journey with elite trainers only at Aksavan" />
+  <meta name="keywords" content="Health, weightloss, diet, fitness, trainers, coaches" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#4285f4" />
+
+  <link rel="manifest" href="manifest.json" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&family=Poppins:wght@300;400;500;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="programs.css" />
+  <link rel="stylesheet" href="styles1.css">
+
+  <script src="programs2.js" .js" defer></script>
+  <script src="index.js"></script>
+
+  <title>User Dashboard</title>
+</head>
+
+<body onload="carousel()">
+
+  <header class="main-header">
+    <nav class="navbar">
+      <h1 id="brand-name">Aksavan</h1>
+      <!-- <img src="Aksavan-3.png" alt="brand" style="height: 32px" />-->
+      <i class="bi bi-list" onclick="displayMenu()"></i>
+    </nav>
+    <div id="ham-menu" class="ham-menu-class">
+      <a href="index.html" class="ham-menu-links" onclick="displayMenu()">Home</a>
+      <a href="programs.html" class="ham-menu-links">Programs</a>
+      <a href="calculator.html" class="ham-menu-links">Success Stories</a>
+      <a href="calculator.html" class="ham-menu-links">BMI Calculator</a>
+      <a href="#contact-us" class="ham-menu-links" role="button" onclick="displayMenu()">Contact Us</a>
+      <a href="calculator.html" class="ham-menu-links">Terms and Conditions</a>
+      <a href="calculator.html" class="ham-menu-links">Privacy Policy</a>
+    </div>
+  </header>
+
+  <div class="main-container">
+    <div>
+      <img alt="health and fitness" class="carousel-image primary-carousel-img" id="imageCarousel0"
+        src="https://images.unsplash.com/photo-1662961154170-d2421e29f94b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80" />
+      <img alt="workout" class="carousel-image" id="imageCarousel1"
+        src="https://images.unsplash.com/photo-1613685044678-0a9ae422cf5a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=465&q=80" />
+      <img alt="diet" class="carousel-image" id="imageCarousel2"
+        src="https://images.unsplash.com/photo-1589960178430-4c300b6a2212?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80" />
+    </div>
+  </div>
+
+  <h1 class="hp-heading2">What your premium plan includes</h1>
+
+  <div class="fitness_plans">
+    <div class="fitness_plans_child">
+      <img src="food.svg" alt="healthy foods" class="premium_plans_icon">
+      <h1 class="hp-heading3">Curated diet as per your body goals</h1>
+    </div>
+    <div>
+      <div class="premium_diet_guranteed"> 
+        <img src="doubletick.svg" alt="Guranteed" />
+        <p>A premium plan that looks after vegan, vegeterian and non vegeterian</p>
+      </div>  
+      <div class="premium_diet_guranteed">
+        <img src="doubletick.svg" alt="Guranteed" />
+        <p>No complicated diet. You can get your meal from your mom's kitchen</p>
+      </div>
+      <div class="premium_diet_guranteed"> 
+        <img src="doubletick.svg" alt="Guranteed" />
+        <p>Diet that you can maintain for longer term</p>
+      </div>
+      <div class="premium_diet_guranteed">
+         <img src="doubletick.svg" alt="Guranteed" />
+        <p>Lose fat by having delicious meals</p>
+      </div>  
+      <div class="premium_diet_guranteed"> 
+        <img src="doubletick.svg" alt="Guranteed" />
+        <p>Get a budget friendly diet</p>
+      </div>  
+
+    </div>
+  </div>
+
+  <div class="fitness_plans">
+    <div class="fitness_plans_child">
+      <img src="dumbell.svg" alt="healthy foods" class="premium_plans_icon">
+      <h1 class="hp-heading3">Workout plan designed by experts</h1>
+    </div>
+    <div>
+      <div class="premium_diet_guranteed">
+        <img src="doubletick.svg" alt="Guranteed" />
+        <p>Fully personalized plans according to your goals. </p>
+      </div>
+      <div class="premium_diet_guranteed"> <img src="doubletick.svg" alt="Guranteed" />
+        <p>Modern workout plans for both male and female</p>
+      </div>
+      <div class="premium_diet_guranteed"> <img src="doubletick.svg" alt="Guranteed" />
+        <p>Build muscles, lose weight from the comfort of your home</p>
+      </div>  
+    </div>
+  </div>
+
+
+  <h1 class="hp-heading2">More Of Aksavan</h1>
+
+  <div class="card-container">
+    <div class="card">
+      <img
+        src="https://images.unsplash.com/photo-1627483298606-cf54c61779a9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+        alt="weight loss" class="card-image" />
+      <button class="card-btn">
+        <a>Explore Now</a>
+      </button>
+    </div>
+
+    <div class="card">
+      <img
+        src="https://images.unsplash.com/photo-1549476464-37392f717541?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+        alt="muscle gain" class="card-image" />
+      <button class="card-btn">
+        <a>Explore Now</a>
+      </button>
+    </div>
+
+    <div class="card">
+      <img
+        src="https://images.unsplash.com/photo-1556386734-4227a180d19e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=405&q=80"
+        alt="diet" class="card-image" />
+      <button class="card-btn">
+        <a>Explore Now</a>
+      </button>
+    </div>
+  </div>
+
+  <div class="social-media-section" id="contact-us">
+    <div>
+      <a href="https://twitter.com" aria-label="Follow us on our Twitter Account"><i
+          class="bi bi-twitter social-media-icons"></i></a>
+      <a href="https://facebook.com" aria-label="Conect with us on our Facebook Page"><i
+          class="bi bi-facebook social-media-icons"></i></a>
+      <a href="https://instagram.com" aria-label="Follow us on our Instagram Page"><i
+          class="bi bi-instagram social-media-icons"></i></a>
+      <a href="https://gmail.com" aria-label="Contact us through mails">
+        <img src="Gmail_Logo.svg" alt="" class="social-media-icons">
+        </a>
+    </div>
+    <p>&#169; Copyright 2022 Aksavan</p>
+  </div>
+</body>
+
+</html>

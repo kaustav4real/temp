@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="author" content="Aksavan" />
+  <meta name="description" content="Start your fitness journey with elite trainers only at Aksavan" />
+  <meta name="keywords" content="Health, weightloss, diet, fitness, trainers, coaches" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#4285f4" />
+
+  <link rel="manifest" href="manifest.json" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&family=Poppins:wght@300;500;600&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="styles1.css" />
+
+  <script src="index.js" defer></script>
+
+  <title>User Dashboard</title>
+</head>
+
+<body class="body-id">
+  <!--Navigation Design-->
+  <section class="home-section">
+    <header class="main-header">
+      <nav class="navbar">
+        <h1 id="brand-name">Aksavan</h1>
+        <!-- <img src="Aksavan-3.png" alt="brand" style="height: 32px" />-->
+        <i class="bi bi-list" onclick="displayMenu()"></i>
+      </nav>
+      <div id="ham-menu" class="ham-menu-class">
+        <a href="index.html" class="ham-menu-links" onclick="displayMenu()">Home</a>
+        <a href="programs.html" class="ham-menu-links">Programs</a>
+        <a href="calculator.html" class="ham-menu-links">Success Stories</a>
+        <a href="calculator.html" class="ham-menu-links">BMI Calculator</a>
+        <a href="#contact-us" class="ham-menu-links" role="button" onclick="displayMenu()">Contact Us</a>
+        <a href="calculator.html" class="ham-menu-links">Terms and Conditions</a>
+        <a href="calculator.html" class="ham-menu-links">Privacy Policy</a>
+      </div>
+    </header>
+
+    <!--Offers Section-->
+
+    <!--Landing Section-->
+    <div class="landing-section">
+      <div>
+        <div class="landing-image-container">
+          <img
+            src="https://images.pexels.com/photos/4853331/pexels-photo-4853331.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            alt="mobile user" class="landing-section-images" />
+        </div>
+        <div class="landing-headers">
+          <h1>Elite Trainers</h1>
+          <h2>Start your fitness journey with our elite trainers</h2>
+        </div>
+      </div>
+      <div>
+        <div class="landing-image-container">
+          <img
+            src="https://img.freepik.com/free-photo/quinoa-mushrooms-lettuce-red-cabbage-spinach-cucumbers-tomatoes-bowl-buddha-dark-top-view_127032-1963.jpg?w=1800&t=st=1665037606~exp=1665038206~hmac=5d56f54454d1802d6a60c4da103ad7c9134a5a59daa9b47a18e415a631f9a630"
+            alt="diet " class="landing-section-images" />
+        </div>
+        <div class="landing-headers">
+          <h1>Proper Diet</h1>
+          <h2>Get the best diet plans for a healthy future</h2>
+        </div>
+      </div>
+      <div>
+        <div class="landing-image-container">
+          <img
+            src="https://images.pexels.com/photos/1000445/pexels-photo-1000445.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            alt="" class="landing-section-images" />
+        </div>
+        <div class="landing-headers">
+          <h1>Awesome Community</h1>
+          <h2>Join a community full of fitness enthusiasts</h2>
+        </div>
+      </div>
+      <div>
+        <div class="landing-image-container">
+          <img
+            src="https://images.pexels.com/photos/4050398/pexels-photo-4050398.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            alt="easy access" class="landing-section-images" />
+        </div>
+        <div class="landing-headers">
+          <h1>Seamless Connectivity</h1>
+          <h2>Connect to your trainers from the comfort of your home</h2>
+        </div>
+      </div>
+    </div>
+
+    <!--Pricing cards section-->
+
+    <div class="pricing-section">
+      <h1>Find a plan that's right for you.</h1>
+      <div>
+        <div class="pricing-card">
+          <div class="pricing-card-description">
+            <h1>Basic</h1>
+            <h2 class="pricing-card-price">INR 3000 per user/month</h2>
+            <br />
+            <h3>For small teams focussed on collaboration.</h3>
+          </div>
+          <div class="pricing-features-container">
+            <span class="pricing-features">
+              <i class="bi bi-check-circle-fill"></i>
+              <p>Up to 1 TB of bandwidth</p>
+            </span>
+            <span class="pricing-features">
+              <i class="bi bi-check-circle-fill"></i>
+              <p>Unlimited function requests & 1000 GB-hours of execution</p>
+            </span>
+            <span class="pricing-features">
+              <i class="bi bi-check-circle-fill"></i>
+              <p>Dynamic edge caching</p>
+            </span>
+            <span class="pricing-features">
+              <i class="bi bi-check-circle-fill"></i>
+              <p>Email support</p>
+            </span>
+          </div>
+          <div class="pricing-div">
+            <a class="pricing-btn-container" href="https://facebook.com">
+              <button>Get Started</button>
+              <i class="bi bi-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+        <div class="pricing-card">
+          <div class="pricing-card-description">
+            <h1>Pro</h1>
+            <h2 class="pricing-card-price">INR 5000 per user/month</h2>
+            <br />
+            <h3>For teams with more security and performance needs.</h3>
+          </div>
+          <div class="pricing-features-container">
+            <span class="pricing-features-pro">
+              <i class="bi bi-check-circle-fill"></i>
+              <p>SSO/SAML</p>
+            </span>
+            <span class="pricing-features-pro">
+              <i class="bi bi-check-circle-fill"></i>
+              <p>Scaled bandwidth pricing</p>
+            </span>
+            <span class="pricing-features-pro">
+              <i class="bi bi-check-circle-fill"></i>
+              <p>
+                Isolated build infrastructure, on better hardware, and no
+                queues
+              </p>
+            </span>
+            <span class="pricing-features-pro">
+              <i class="bi bi-check-circle-fill"></i>
+              <p>Dedicated support manager & SLAs</p>
+            </span>
+          </div>
+          <div class="pricing-div">
+            <a class="pricing-btn-container-pro" href="https://facebook.com">
+              <button>Get Started</button>
+              <i class="bi bi-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Custom Diet Plans-->
+    <h1 class="diet-heading">Our services are flexible</h1>
+    <div class="plans-redirect-div">
+      <p class="programs_link">
+        Check out our
+        <span><a class="programs_link1" href="programs.html">plans</a></span>
+      </p>
+    </div>
+    <div class="custom-diet-plans">
+      <div class="custom-diet-card">
+        <div>
+          <img
+            src="https://images.unsplash.com/photo-1610441009633-b6ca9c6d4be2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+            alt="diet" style="width: 100%" />
+        </div>
+        <p>
+          Get a diet plan dedicately designed for you and your needs just at
+          INR 250
+        </p>
+        <div class="pricing-div">
+          <a class="custom-btn-container" href="https://facebook.com">
+            <button>Get Started</button>
+            <i class="bi bi-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="custom-diet-card">
+        <div>
+          <img
+            src="https://images.pexels.com/photos/6551425/pexels-photo-6551425.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            alt="diet" style="width: 100%" />
+        </div>
+        <p>
+          Get a certified trainer to boost your fitness journey just at INR
+          2000
+        </p>
+        <div class="pricing-div">
+          <a class="custom-btn-container" href="https://facebook.com">
+            <button>Get Started</button>
+            <i class="bi bi-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!--Why Us section-->
+    <div class="commitment-section">
+      <div>
+        <i class="bi bi-check-circle-fill commitment-icons"></i>
+        <h1 class="commitment-heading">Easy to use</h1>
+        <p>Designed to smooth out your fitness journey</p>
+      </div>
+      <div>
+        <i class="bi bi-bullseye commitment-icons"></i>
+        <h1 class="commitment-heading">Elite Trainers</h1>
+        <p>We have all the trainers, the best trainers</p>
+      </div>
+      <div>
+        <i class="bi bi-suit-heart-fill commitment-icons"></i>
+        <h1 class="commitment-heading">Guranteed to work</h1>
+        <p>Our programs are built to match your body</p>
+      </div>
+    </div>
+
+    <!--Social Media Section-->
+
+    <div class="social-media-section" id="contact-us">
+      <div>
+        <a href="https://twitter.com" aria-label="Follow us on our Twitter Account"><i
+            class="bi bi-twitter social-media-icons"></i></a>
+        <a href="https://facebook.com" aria-label="Conect with us on our Facebook Page"><i
+            class="bi bi-facebook social-media-icons"></i></a>
+        <a href="https://instagram.com" aria-label="Follow us on our Instagram Page"><i
+            class="bi bi-instagram social-media-icons"></i></a>
+        <a href="https://gmail.com" aria-label="Contact us through mails">
+          <img src="Gmail_Logo.svg" alt="" class="social-media-icons">
+          </a>
+      </div>
+      <p>&#169; Copyright 2022 Aksavan</p>
+    </div>
+  </section>
+</body>
+
+</html>
